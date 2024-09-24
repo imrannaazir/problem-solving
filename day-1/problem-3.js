@@ -21,4 +21,4 @@ const composeFunction = (number) => {
     return addFive(doubleNumber(squareNumber(number)))
 }
 
-console.log(composeFunction(6)) 
+console.log(composeFunction(1)) 

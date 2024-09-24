@@ -29,7 +29,7 @@ const persons = [
 const getMaleNames = (persons) => {
     const malePersons = persons.filter((person) => person.gender !== "female")
     const malePersonNames = malePersons.map((person) => person.name)
-    console.log(malePersonNames)
+    return malePersonNames
 }
 
-getMaleNames(persons)
+console.log(getMaleNames(persons))
